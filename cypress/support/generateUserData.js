@@ -1,5 +1,4 @@
 const { faker } = require('@faker-js/faker');
-module.exports = { generateUserData };
 
 function generateUserData() {
   const firstName = faker.person.firstName();
@@ -35,3 +34,5 @@ function generateUserData() {
     city
   };
 }
+
+module.exports = { generateUserData };
